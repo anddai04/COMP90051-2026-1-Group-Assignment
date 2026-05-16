@@ -31,6 +31,7 @@ class DiagnosisGraph:
             X_train_fold,
             X_valid_fold
         )
+        or use fit_transform_augmented which will combine with already constructed features
 
     Do not fit this graph once on the full dataset before cross-validation!!!
     """
